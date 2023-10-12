@@ -3,7 +3,7 @@ const chalk = require('chalk')
 const {
    indonesia,
    english,
-   spanyol
+   swahili
 } = require(`./language`)
 
 //sebagian panel gk support opena ai jadi mungkin apikey lu bakalan di blokir
@@ -25,7 +25,7 @@ edit sewabot di file settings.js line 24
 `
 // setting 
 global.firtsChat = true //send firts message to new user
-global.autoread = true // auto read message
+global.autoread = false // auto read message
 global.antidelete = true// anti delete
 global.antiviewonce = true // anti view once
 global.autobio = false //auto ganti bio
@@ -67,7 +67,7 @@ global.badword_list = ["asu", "anjir"] //tambahin sendiri kata² nya, gunakan hu
 global.premium = ['94764497078'] //premium user
 global.owner = ["7644970778", "94764497078"] //ganti agar fitur owner bisa di gunakan
 global.ownernomer = owner[7644970778] +255710018868 "@s.whatsapp.net"
-global.ownernomerr = "+255710018868"+ownernomer //tidak perlu di edit
+global.ownernomerr = "+94764497078"+ownernomer //tidak perlu di edit
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.tag_owner = "./tag_owner.mp3" // audio ini akan di kirim apabila ada member yang menandai (tag) owner bot 
